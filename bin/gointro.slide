@@ -10,8 +10,15 @@ Prashanth
 CSE-2
 
 
-* Title of slide or section (must have asterisk)
+* Outline
+- Packages
+- Functions
+- Variables
+- Constants
+- Flow Control Statements
+- Go routines
+- Concurrency
+- Why Go?
 
-Some Text
 
- 
+
