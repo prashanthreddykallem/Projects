@@ -11,14 +11,60 @@ CSE-2
 
 
 * Outline
-- Packages
-- Functions
-- Variables
-- Constants
-- Flow Control Statements
-- Go routines
-- Concurrency
 - Why Go?
+- Hello World!  
+- Data Types
+- Variable Declaration
+- Control Structures
+- Arrays,Slices,Maps 
+- Functions
+ 
 
 
 
+
+
+* Hello World!
+
+.play hello.go
+
+* Data Types
+- Data types supported by Go :
+    - Numbers
+        - Integers
+        - Floating point numbers
+        - Complex
+     - Strings
+     - Booleans
+
+* Variable Declaration 
+- Three types of variable declaration 
+ var name_of_var type_of_var
+.play var1.go
+* Variables with initializers  
+ var name_of_var1,name_of_var2 = value1,value2  
+.play var2.go
+* Short hand assignment   
+  name_of_var:=value1 
+ 
+.play var3.go
+
+* Control Structures
+- The control Structures in Go are 
+ -For
+ -If 
+ -Switch
+
+* For 
+- Used for looping
+- The only loop statement in Go Language
+
+- Basic For loop
+.play for1.go /START OMIT/,/END OMIT/
+
+- For is Go's "while"
+.play for2.go  /START OMIT/,/END OMIT/
+
+- The range form of for will be discussed later  
+
+* If
